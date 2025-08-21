@@ -1,0 +1,1 @@
+function executeRun(){window.location.href="https://search.google.com/local/writereview?placeid=ChIJY0Py5oRNtUYRQl5qBc1Gpb4"}executeRun();

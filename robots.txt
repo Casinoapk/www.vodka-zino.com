@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /external-links.html
+
+Sitemap: https://www.vodkazino.com/sitemap.xml
