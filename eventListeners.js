@@ -1,6 +1,4 @@
-function preventAutoDownload(){window.addEventListener("beforeunload",function (e){e.preventDefault();e.returnValue = ""}
-)}
-preventAutoDownload();document.addEventListener("DOMContentLoaded",function (){const navButtons = document.querySelectorAll(".nav-btn");const screens = document.querySelectorAll(".screen");navButtons.forEach((btn) =>{btn.addEventListener("click",function (){const target = btn.getAttribute("data-target");screens.forEach((screen) => screen.classList.remove("active"));const targetEl = document.getElementById(target);if (targetEl) targetEl.classList.add("active");history.pushState(null,"","" + target)}
+document.addEventListener("DOMContentLoaded",function (){const navButtons = document.querySelectorAll(".nav-btn");const screens = document.querySelectorAll(".screen");navButtons.forEach((btn) =>{btn.addEventListener("click",function (){const target = btn.getAttribute("data-target");screens.forEach((screen) => screen.classList.remove("active"));const targetEl = document.getElementById(target);if (targetEl) targetEl.classList.add("active");history.pushState(null,"","" + target)}
 )}
 );window.addEventListener("popstate",function (){const path = window.location.pathname.replace("","");const screen = document.getElementById(path);if (screen){screens.forEach((e) => e.classList.remove("active"));screen.classList.add("active")}
 }
