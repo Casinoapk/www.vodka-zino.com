@@ -1,7 +1,7 @@
 {
   "name": "Vodka Casino",
   "short_name": "PWA App",
-  "start_url": "https://www.vodkazino.com/",
+  "start_url": "https://www.vodkazino.com/vhod.js",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
