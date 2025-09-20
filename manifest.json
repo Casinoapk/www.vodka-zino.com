@@ -1,7 +1,7 @@
 {
   "name": "Vodka Casino",
   "short_name": "PWA App",
-  "start_url": "https://www.vodkazino.com/vodka-registracia.html",
+  "start_url": "https://www.vodkazino.com/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
